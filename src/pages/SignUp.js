@@ -71,7 +71,8 @@ function SignUp() {
           console.log(user);
       
           console.log("logged in");
-          setUser(user);history.push('/home')
+          setUser(user);
+          history.push('/home')
           
           // ...
         })
