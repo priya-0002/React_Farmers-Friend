@@ -9,7 +9,7 @@ import './css/style.scss';
 
 import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';
-
+import { UserContextProvider } from './contexts/user'
 import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
@@ -37,20 +37,22 @@ function App() {
 
   return (
     <>
+        <UserContextProvider>
       <Switch>
-        <Route exact path="/">
+        <Route  path="/home">
           <Home />
         </Route>
-        <Route path="/signin">
+        <Route  path="/signin">
           <SignIn />
         </Route>
-        <Route path="/signup">
+        <Route exact path="/">
           <SignUp />
         </Route>
         <Route path="/reset-password">
           <ResetPassword />
         </Route>
       </Switch>
+      </UserContextProvider>
     </>
   );
 }
