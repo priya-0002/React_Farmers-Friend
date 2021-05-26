@@ -43,7 +43,18 @@ function Features() {
 
     }
   return (
+   
+  
+
+    
+
     <section className="relative">
+      <br />
+      <br />
+    <br />
+    <br />
+   
+     
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -53,10 +64,57 @@ function Features() {
         <div className="pt-12 md:pt-20">
 
           {/* Section header */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
+        <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
+              <stop stopColor="#FFF" offset="0%" />
+              <stop stopColor="#EAEAEA" offset="77.402%" />
+              <stop stopColor="#DFDFDF" offset="100%" />
+            </linearGradient>
+          </defs>
+          <g fill="url(#illustration-01)" fillRule="evenodd">
+            <circle cx="1232" cy="128" r="128" />
+            <circle cx="155" cy="443" r="64" />
+          </g>
+        </svg>
+      </div>
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4">Instant Loan Calculator</h1>
+            <p className="text-xl text-gray-600"></p>
           </div>
+          <br />
+          <br />
+          <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
+        <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
+              <stop stopColor="#FFF" offset="0%" />
+              <stop stopColor="#EAEAEA" offset="77.402%" />
+              <stop stopColor="#DFDFDF" offset="100%" />
+            </linearGradient>
+          </defs>
+          <g fill="url(#illustration-01)" fillRule="evenodd">
+            <circle cx="1232" cy="128" r="128" />
+            <circle cx="155" cy="443" r="64" />
+          </g>
+        </svg>
+      </div>
+      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
+        <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
+              <stop stopColor="#FFF" offset="0%" />
+              <stop stopColor="#EAEAEA" offset="77.402%" />
+              <stop stopColor="#DFDFDF" offset="100%" />
+            </linearGradient>
+          </defs>
+          <g fill="url(#illustration-01)" fillRule="evenodd">
+            <circle cx="1232" cy="128" r="128" />
+            <circle cx="155" cy="443" r="64" />
+          </g>
+        </svg>
+      </div>
 
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
@@ -64,9 +122,10 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                <h3 className="h3 mb-3">We exists to manage your loan </h3>
+                <p className="text-xl text-gray-600">Please provide in the personal details and the loan details. Get intant loan interest applicable to your loan in no seconds </p>
               </div>
+              
               
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -160,9 +219,8 @@ function Features() {
                
                  
                   <div className="relative inline-flex flex-col">
-                 <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
-
+                 <img className="md:max-w-none mx-auto rounded" src={require('../images/farmer.jpg').default} width="500" height="462" alt="Features bg" />
+                    
                    
                   </div>
                 </Transition>
@@ -207,7 +265,12 @@ function Features() {
 
         </div >
       </div >
+      <br />
+      <br />
+      <br />
+      <br />
     </section >
+    
   );
 }
 

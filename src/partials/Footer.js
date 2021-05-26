@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
+    
     <footer>
+      
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Top area: Blocks */}
@@ -36,19 +38,19 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Loan help</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Weather Updates</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programm Conduction</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Integrations</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Fund Relief</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Emergency</Link>
               </li>                            
             </ul>
           </div>
@@ -58,26 +60,26 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Documentation</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Policies</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Tutorials & Guides</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Help &Support</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Blog</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Our Blogs</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners in support</Link>
               </li>
             </ul>
           </div>
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+            <h6 className="text-gray-800 font-medium mb-2">NGO</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</Link>
@@ -86,10 +88,10 @@ function Footer() {
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Our values</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</Link>
+                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Why we exist?</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</Link>
@@ -100,13 +102,13 @@ function Footer() {
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every month.</p>
+            <p className="text-sm text-gray-600 mb-4">Get the latest news and articles regarding sechemes meant for farmers</p>
             <form>
               <div className="flex flex-wrap mb-4">
                 <div className="w-full">
-                  <label className="block text-sm sr-only" htmlFor="newsletter">Email</label>
+                  <label className="block text-sm sr-only" htmlFor="newsletter">Contact Number</label>
                   <div className="relative flex items-center max-w-xs">
-                    <input id="newsletter" type="email" className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm" placeholder="Your email" required />
+                    <input id="newsletter" type="email" className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm" placeholder="Contact Number" required />
                     <button type="submit" className="absolute inset-0 left-auto" aria-label="Subscribe">
                       <span className="absolute inset-0 right-auto w-px -ml-px my-2 bg-gray-300" aria-hidden="true"></span>
                       <svg className="w-3 h-3 fill-current text-blue-600 mx-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -152,7 +154,7 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://cruip.com/">Cruip</a>. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4"> All rights reserved.</div>
 
         </div>
 

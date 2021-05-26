@@ -14,6 +14,13 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
+import Footer from './partials/Footer';
+import Features from './partials/Features';
+import FeaturesBlocks from './partials/FeaturesBlocks';
+import Testimonials from './partials/Testimonials';
+import Newsletter from './partials/Newsletter';
+import Header from './partials/Header';
+
 
 function App() {
 
@@ -38,10 +45,37 @@ function App() {
   return (
     <>
         <UserContextProvider>
+        <Header />
       <Switch>
         <Route  path="/home">
           <Home />
         </Route>
+        <Route path="/loan">
+        <Features/>
+       
+        </Route>
+        <Route path="/weather">
+        
+        <FeaturesBlocks />
+        </Route>
+
+        
+        
+       
+        
+       
+       
+        <Route path="/donation">
+        
+        <Testimonials/>
+       
+        </Route>
+        <Route path="/contact">
+        
+        
+        <Newsletter />
+        </Route>
+      
       
         <Route exact path="/">
           <SignUp />
@@ -49,7 +83,9 @@ function App() {
         <Route path="/reset-password">
           <ResetPassword />
         </Route>
+     
       </Switch>
+      <Footer/>
       </UserContextProvider>
     </>
   );
