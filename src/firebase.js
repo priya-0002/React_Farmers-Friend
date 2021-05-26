@@ -1,12 +1,12 @@
 import firebase from 'firebase'
 
 var firebaseConfig = {
-  apiKey: "AIzaSyD4hW0NHnhXN7IrA6ys_y65rVwnZKuaNuI",
-  authDomain: "phoneauthen-3a4d3.firebaseapp.com",
-  projectId: "phoneauthen-3a4d3",
-  storageBucket: "phoneauthen-3a4d3.appspot.com",
-  messagingSenderId: "52587453812",
-  appId: "1:52587453812:web:e41babe675beb3641d6021"
+  apiKey: "AIzaSyCO1DOSm-xRune0plloUUH9bBl1_7TzsDA",
+  authDomain: "krishi-seva-e3925.firebaseapp.com",
+  projectId: "krishi-seva-e3925",
+  storageBucket: "krishi-seva-e3925.appspot.com",
+  messagingSenderId: "539693641628",
+  appId: "1:539693641628:web:be69e36c52729b1f32e259"
 };
 
 const firebaseApp=firebase.initializeApp(firebaseConfig);
