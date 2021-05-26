@@ -20,6 +20,9 @@ import FeaturesBlocks from './partials/FeaturesBlocks';
 import Testimonials from './partials/Testimonials';
 import Newsletter from './partials/Newsletter';
 import Header from './partials/Header';
+import NotFound from './partials/NotFound';
+import About from './partials/About';
+import Sechmes from './partials/Sechmes';
 
 
 function App() {
@@ -62,6 +65,17 @@ function App() {
         
         
        
+        <Route path="/about">
+        
+        <About/>
+       
+        </Route>
+
+        <Route path="/sechmes">
+        
+        <Sechmes/>
+       
+        </Route>
         
        
        
@@ -83,7 +97,9 @@ function App() {
         <Route path="/reset-password">
           <ResetPassword />
         </Route>
-     
+        <Route path="*">
+         <NotFound/>
+       </Route>
       </Switch>
       <Footer/>
       </UserContextProvider>

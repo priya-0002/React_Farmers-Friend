@@ -62,10 +62,8 @@ function FeaturesBlocks() {
   <div className="search"></div>
 </div>
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4"> Current weather updates</h2>
-            
-            
-          </div>
+            <h2 className="h2 mb-4"> Weather Prediction</h2>
+            </div>
           <br />
           <br />
       <br />
