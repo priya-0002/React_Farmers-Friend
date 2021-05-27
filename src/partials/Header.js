@@ -74,16 +74,25 @@ let history=useHistory();
                { user? <Link to="/home" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Home</Link>:""}
               </li>
               <li>
-                <Link to="/home" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Weather</Link>
+                <Link to="/home" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Home</Link>
               </li>
               <li>
-                <Link to="/home" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Loan</Link>
+                <Link to="/loan" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Loan</Link>
               </li>
               <li>
-                <Link to="/home" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact</Link>
+                <Link to="/weather" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Weather</Link>
               </li>
               <li>
-                <Link to="/home" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sechmes</Link>
+                <Link to="/sechmes" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sechmes</Link>
+              </li>
+              <li>
+                <Link to="/about" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About Us</Link>
+              </li>
+              <li>
+                <Link to="/contact" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contact Us</Link>
+              </li>
+              <li>
+                <Link to="/donation" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Donate</Link>
               </li>
               <li>
                { !user?<Link to="/" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">

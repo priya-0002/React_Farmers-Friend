@@ -237,7 +237,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
+                 <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
                   </div>
                 </Transition>
@@ -254,8 +254,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+                  
                   </div>
                 </Transition>
               </div>
@@ -269,6 +268,7 @@ function Features() {
       <br />
       <br />
       <br />
+      
     </section >
     
   );

@@ -21,8 +21,11 @@ const Sechmes = () => {
     }, [tab])
   
     return (
+      
         <div>
+          <br /><br />
            <section className="relative">
+             
 
 {/* Section background (needs .relative class on parent and next sibling elements) */}
 <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -33,8 +36,8 @@ const Sechmes = () => {
 
     {/* Section header */}
     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-      <h1 className="h2 mb-4">Explore the solutions</h1>
-      <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+      <h1 className="h2 mb-4">Government schemes for farmers</h1>
+      <p className="text-xl text-gray-600">These agricultural schemes are very beneficial for the farmers and they must know about it so as to take its benefit..</p>
     </div>
 
     {/* Section content */}
@@ -43,8 +46,8 @@ const Sechmes = () => {
       {/* Content */}
       <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
         <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-          <h3 className="h3 mb-3">Powerful suite of tools</h3>
-          <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+          <h3 className="h3 mb-3"> Most Popular</h3>
+          <p className="text-xl text-gray-600"></p>
         </div>
         {/* Tabs buttons */}
         <div className="mb-8 md:mb-0">
@@ -54,8 +57,9 @@ const Sechmes = () => {
             onClick={(e) => { e.preventDefault(); setTab(1); }}
           >
             <div>
-              <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-              <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+              <div className="font-bold leading-snug tracking-tight mb-1">PM-Kisan Scheme</div>
+            <a href="www.pmkisan.gov.in/"> <div className="text-gray-600">Pradhan Mantri Kisan Samman Nidhi Yojana is an initiative of the Government wherein 120 million small and marginal farmers of India with less than two hectares of landholding will get up to Rs. 6,000 per year as minimum income support. PM-Kisan scheme has become operational since 1st December 2018. Under this scheme, cultivators will get Rs. 6000 in three installments.For more details check </div></a> 
+              
             </div>
             <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
               <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +73,8 @@ const Sechmes = () => {
             onClick={(e) => { e.preventDefault(); setTab(2); }}
           >
             <div>
-              <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-              <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+              <div className="font-bold leading-snug tracking-tight mb-1">Kisan Credit Card (KCC) scheme</div>
+              <div className="text-gray-600">is yet another important Government scheme that provides farmers with timely access to credit. Kisan Credit Card scheme was introduced in 1998 to provide short-term formal credit to the farmers. KCC scheme was launched to ensure that the credit requirements for cultivators in the agriculture, fisheries & animal husbandry sector were being met. Under this scheme, farmers are given short-term loans to purchase equipment & for their other expenses as well. There are many banks that offer KCC including SBI, HDFC, ICICI, Axis. .</div>
             </div>
             <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
               <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -84,8 +88,8 @@ const Sechmes = () => {
             onClick={(e) => { e.preventDefault(); setTab(3); }}
           >
             <div>
-              <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-              <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+              <div className="font-bold leading-snug tracking-tight mb-1">Pradhan Mantri Kisan Maandhan yojana</div>
+             <a href=""> <div className="text-gray-600">Prime Minister Narendra Modi launched a pension scheme for the small & marginal farmers of India last September. Under PM Kisan Maandhan scheme about 5 crore marginalised farmers will get a minimum pension of Rs 3000 / month on attaining the age of 60. Those who fall in the age group of 18 - 40 years will be eligible to apply for the scheme. Under this scheme, the farmers will be required to make a monthly contribution of Rs 55 to 200, depending on their age of entry, in the Pension Fund till they reach the retirement date, 60 years. The Government will make an equal contribution of the same amount in the pension fund for the cultivators..</div></a>
             </div>
             <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
               <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -94,6 +98,22 @@ const Sechmes = () => {
             </div>
           </a>
         </div>
+      </div>
+      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
+        <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
+              <stop stopColor="#FFF" offset="0%" />
+              <stop stopColor="#EAEAEA" offset="77.402%" />
+              <stop stopColor="#DFDFDF" offset="100%" />
+            </linearGradient>
+          </defs>
+          <g fill="url(#illustration-01)" fillRule="evenodd">
+            <circle cx="1232" cy="128" r="128" />
+            <circle cx="1232" cy="128" r="128" />
+            
+          </g>
+        </svg>
       </div>
 
       {/* Tabs items */}
@@ -112,8 +132,8 @@ const Sechmes = () => {
             leaveEnd="opacity-0 -translate-y-16"
           >
             <div className="relative inline-flex flex-col">
-              <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-              <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+              <img className="md:max-w-none mx-auto rounded" src={require('../images/fourth.jpg').default} width="500" height="462" alt="Features bg" />
+              
             </div>
           </Transition>
           {/* Item 2 */}
@@ -129,8 +149,8 @@ const Sechmes = () => {
             leaveEnd="opacity-0 -translate-y-16"
           >
             <div className="relative inline-flex flex-col">
-              <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-              <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+              <img className="md:max-w-none mx-auto rounded" src={require('../images/second.jpg').default} width="500" height="462" alt="Features bg" />
+              
             </div>
           </Transition>
           {/* Item 3 */}
@@ -146,8 +166,8 @@ const Sechmes = () => {
             leaveEnd="opacity-0 -translate-y-16"
           >
             <div className="relative inline-flex flex-col">
-              <img className="md:max-w-none mx-auto rounded" src={require('../images/features-bg.png').default} width="500" height="462" alt="Features bg" />
-              <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-element.png').default} width="500" height="44" alt="Element" style={{ top: '30%' }} />
+              <img className="md:max-w-none mx-auto rounded" src={require('../images/third.jpg').default} width="500" height="462" alt="Features bg" />
+              
             </div>
           </Transition>
         </div>
@@ -158,6 +178,8 @@ const Sechmes = () => {
   </div >
 </div >
 </section >  
+<br /><br /><br /><br /><br />
+
         </div>
     )
 }

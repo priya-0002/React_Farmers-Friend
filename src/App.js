@@ -23,6 +23,7 @@ import Header from './partials/Header';
 import NotFound from './partials/NotFound';
 import About from './partials/About';
 import Sechmes from './partials/Sechmes';
+import Policy from './partials/Policy';
 
 
 function App() {
@@ -77,7 +78,12 @@ function App() {
        
         </Route>
         
+        <Route path="/policy">
+        
+        <Policy/>
        
+        </Route>
+        
        
         <Route path="/donation">
         
