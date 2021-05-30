@@ -24,6 +24,9 @@ import NotFound from './partials/NotFound';
 import About from './partials/About';
 import Sechmes from './partials/Sechmes';
 import Policy from './partials/Policy';
+import Chat from './partials/Chat';
+
+
 
 
 function App() {
@@ -58,12 +61,19 @@ function App() {
         <Features/>
        
         </Route>
+
         <Route path="/weather">
         
         <FeaturesBlocks />
         </Route>
-
+         
         
+       
+        <Route path="/chatbot">
+        
+        <Chat />
+        </Route>
+         
         
        
         <Route path="/about">
@@ -71,7 +81,7 @@ function App() {
         <About/>
        
         </Route>
-
+     
         <Route path="/sechmes">
         
         <Sechmes/>
