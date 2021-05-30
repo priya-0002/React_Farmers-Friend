@@ -7,7 +7,16 @@ const Chat = () => {
   const [isClicked,setisClicked]=useState(false)
 
  const  chating = () => {
-    <ChatBot 
+   setisClicked(true)
+    
+  }
+    return (
+      
+        <div>
+
+        <button onClick={chating}> hi </button>
+
+         {isClicked ? <div> <ChatBot 
     speechSynthesis={{ enable: true, lang: 'hi' }}
 headerTitle="Speech Recognition"
 recognitionEnable={true}
@@ -74,12 +83,7 @@ steps={[
  },
 ]}
 />
-
-  }
-    return (
-      
-        <div>
-         {!isClicked}
+</div> : null}
            
         </div>
     )
