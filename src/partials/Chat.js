@@ -2,6 +2,8 @@ import React from 'react'
 import ChatBot from "react-simple-chatbot";
 import styled from "styled-components"
 import {useState} from "react"
+import"./chat.css"
+import chatb from '../assets/chatb.png'
 
 const Chat = () => {
   const [isClicked,setisClicked]=useState(false)
@@ -10,11 +12,18 @@ const Chat = () => {
    setisClicked(true)
     
   }
+
+  const  nochating = () => {
+    setisClicked(false)
+     
+   }
     return (
       
-        <div>
+        <div className="chat">
 
-        <button onClick={chating}> hi </button>
+        <button onClick={chating}> <img style={{width:"30px"}} src={chatb} alt="" /> </button>
+        <button onClick={nochating}> cancel </button>
+
 
          {isClicked ? <div> <ChatBot 
     speechSynthesis={{ enable: true, lang: 'hi' }}

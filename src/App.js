@@ -69,10 +69,9 @@ function App() {
          
         
        
-        <Route path="/chatbot">
         
-        <Chat />
-        </Route>
+      
+       
          
         
        
@@ -117,6 +116,7 @@ function App() {
          <NotFound/>
        </Route>
       </Switch>
+      <Chat />
       <Footer/>
       </UserContextProvider>
     </>
