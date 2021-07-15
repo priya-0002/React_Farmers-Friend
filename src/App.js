@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import {
   Switch,
   Route,
@@ -31,6 +31,7 @@ import Bid from './Bid';
 
 
 
+
 function App() {
 
   const location = useLocation();
@@ -55,35 +56,39 @@ function App() {
     <>
     
         <UserContextProvider>
-        <Header />
+       
       <Switch>
         <Route  path="/home">
+        <Header />
           <Home />
         </Route>
         <Route path="/loan">
+        <Header />
         <Features/>
        
         </Route>
 
+        <Route path="/bid">
+        <Bid/>
+       
+        </Route>
+
         <Route path="/weather">
-        
+        <Header />
         <FeaturesBlocks />
         </Route>
          
         
        
         
-        <Route path="/produce">
         
-        <Bid/>
-        </Route>
          
        
          
         
        
         <Route path="/about">
-        
+        <Header />
         <About/>
        
         </Route>
