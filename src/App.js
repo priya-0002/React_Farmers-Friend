@@ -25,6 +25,8 @@ import About from './partials/About';
 import Sechmes from './partials/Sechmes';
 import Policy from './partials/Policy';
 import Chat from './partials/Chat';
+import Bid from './Bid';
+
 
 
 
@@ -51,6 +53,7 @@ function App() {
 
   return (
     <>
+    
         <UserContextProvider>
         <Header />
       <Switch>
@@ -70,7 +73,11 @@ function App() {
         
        
         
-      
+        <Route path="/produce">
+        
+        <Bid/>
+        </Route>
+         
        
          
         
@@ -119,6 +126,8 @@ function App() {
       <Chat />
       <Footer/>
       </UserContextProvider>
+      
+        
     </>
   );
 }

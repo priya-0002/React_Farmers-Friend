@@ -3,7 +3,8 @@ import ChatBot from "react-simple-chatbot";
 import styled from "styled-components"
 import {useState} from "react"
 import"./chat.css"
-import chatb from '../assets/chatb.png'
+import cha from '../assets/cha.png'
+import back from '../assets/back.png'
 
 const Chat = () => {
   const [isClicked,setisClicked]=useState(false)
@@ -21,13 +22,14 @@ const Chat = () => {
       
         <div className="chat">
 
-        <button onClick={chating}> <img style={{width:"30px"}} src={chatb} alt="" /> </button>
-        <button onClick={nochating}> cancel </button>
+        <button onClick={chating}> <img style={{width:"50px"}} src={cha} alt="" /> </button>
+        
+        
 
-
-         {isClicked ? <div> <ChatBot 
+         {isClicked ? <div >  <button onClick={nochating}> <img style={{width:"30px"}} src={back} alt="" /> </button> <div style={{marginLeft:"-65%"}}> <ChatBot
+         
     speechSynthesis={{ enable: true, lang: 'hi' }}
-headerTitle="Speech Recognition"
+headerTitle="How may I help"
 recognitionEnable={true}
 steps={[
  {
@@ -90,9 +92,11 @@ steps={[
    
    end:true
  },
-]}
-/>
-</div> : null}
+]} 
+/> </div>
+
+</div> : null
+}
            
         </div>
     )
