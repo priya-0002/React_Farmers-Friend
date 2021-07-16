@@ -38,7 +38,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
             <img style={{width:"20px"}}src={logo} alt="commerce.js" height="25px" className={classes.image} /> Commerce.js
           </Typography>
           <div className={classes.grow} />
-          {location.pathname === '/' && (
+          {location.pathname === '/bid' && (
           <div className={classes.button}>
             <IconButton  component={Link} to="/cart" aria-label="Show cart items" color="inherit">
               <Badge  badgeContent={totalItems} color="secondary">
