@@ -70,8 +70,10 @@ const Bid = () => {
   }, []);
 
   const handleDrawerToggle = () => setMobileOpen(!mobileOpen);
+  
 
   return (
+    
     <Router>
       <div style={{ display: 'flex' }}>
         <CssBaseline />
@@ -88,6 +90,7 @@ const Bid = () => {
           </Route>
         </Switch>
       </div>
+      
     </Router>
   );
 };
