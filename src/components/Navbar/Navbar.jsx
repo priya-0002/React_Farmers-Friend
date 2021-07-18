@@ -34,7 +34,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
     <>
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
-          <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
+          <Typography component={Link} to="/home" variant="h6" className={classes.title} color="inherit">
             <img style={{width:"20px"}}src={logo} alt="commerce.js" height="25px" className={classes.image} /> Produce Portal
           </Typography>
           <div className={classes.grow} />
@@ -48,6 +48,7 @@ const PrimarySearchAppBar = ({ totalItems }) => {
           </div>
           )}
         </Toolbar>
+        
       </AppBar>
       {renderMobileMenu}
     </>

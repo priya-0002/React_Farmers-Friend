@@ -94,25 +94,25 @@ function App() {
         </Route>
      
         <Route path="/sechmes">
-        
+        <Header />
         <Sechmes/>
        
         </Route>
         
         <Route path="/policy">
-        
+        <Header />
         <Policy/>
        
         </Route>
         
        
         <Route path="/donation">
-        
+        <Header />
         <Testimonials/>
        
         </Route>
         <Route path="/contact">
-        
+        <Header />
         
         <Newsletter />
         </Route>
