@@ -5,7 +5,7 @@ import { loadStripe } from '@stripe/stripe-js';
 
 import Review from './Review';
 
-const stripePromise = loadStripe("pk_test_51JD2gYSI24JKTUhdaqtX3S1SPAzmAxAcFF7z9ywVBS4VbziQoHJFMMeIYm7XgLYYvyO81vOMlBw3cl3fHd4CNY5g00zrIVY01j");
+const stripePromise = loadStripe("pk_test_51JLAPMSEd1UszfwvNgr73YfGij99nhB3ppLm4r2XsT7CSJfkQDPr69tE3uL9JbNVvj2FYRrGvGU5CNcteysaJmIJ00ANJeWUol");
 
 const PaymentForm = ({ checkoutToken, nextStep, backStep, shippingData, onCaptureCheckout }) => {
   const handleSubmit = async (event, elements, stripe) => {
